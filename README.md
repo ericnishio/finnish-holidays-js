@@ -1,5 +1,5 @@
 finnish-holidays-js
 ===================
 
-A JavaScript port of the [finnish-holidays](https://github.com/ericnishio/finnish-holidays)
+A library for listing Finnish national holidays. Based on the [finnish-holidays](https://github.com/ericnishio/finnish-holidays)
 Ruby gem.
