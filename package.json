@@ -1,11 +1,8 @@
 {
   "name": "finnish-holidays-js",
   "version": "0.1.0",
-  "description": "A JavaScript tool for listing Finnish national holidays.",
+  "description": "A library for listing Finnish national holidays.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "holidays",
     "finland",
