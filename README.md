@@ -7,12 +7,12 @@ Ruby gem.
 ## Setup
 
 ```
-npm install finnish-holidays-js --save
+$ npm install finnish-holidays-js --save
 ```
 
 ## Usage
 
-```
+```javascript
 var holidays = require('finnish-holidays');
 
 holidays.next();
