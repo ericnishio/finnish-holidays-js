@@ -1,5 +1,6 @@
 var dateUtils = require('./lib/date-utils');
-var year = require('./lib/year');
+var calendar = require('./lib/calendar');
 
-y = year.get(2015);
-console.log(y);
+calendar.initialize();
+var next = calendar.next(2);
+console.log(next);
