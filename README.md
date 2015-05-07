@@ -13,7 +13,7 @@ $ npm install finnish-holidays-js --save
 ## Usage
 
 ```javascript
-var holidays = require('finnish-holidays');
+var holidays = require('finnish-holidays-js');
 
 holidays.next();
 holidays.year(2015);
