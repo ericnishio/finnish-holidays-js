@@ -9,5 +9,9 @@
     "finnish"
   ],
   "author": "Eric Nishio <eric@self-learner.com>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ericnishio/finnish-holidays-js.git"
+  },
   "license": "MIT"
 }
