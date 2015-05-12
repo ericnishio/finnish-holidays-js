@@ -1,6 +1,8 @@
 finnish-holidays-js
 ===================
 
+[![Build Status](https://travis-ci.org/ericnishio/finnish-holidays-js.svg?branch=master)](https://travis-ci.org/ericnishio/finnish-holidays-js)
+
 A library for listing Finnish national holidays. Based on the [finnish-holidays](https://github.com/ericnishio/finnish-holidays)
 Ruby gem.
 
