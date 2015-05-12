@@ -19,23 +19,56 @@ describe('date-utils', function() {
 
   it('should not place zero before two-digit integer', function() {
     var number = dateUtils.zerofy(10);
-    expect(number).to.equal('10');
+    expect(number).to.eql('10');
   });
 
   it('should stringify single-digit integer', function() {
     var number = dateUtils.zerofy(9);
-    expect(typeof number).to.equal('string');
+    expect(typeof number).to.eql('string');
   });
 
   it('should stringify two-digit integer', function() {
     var number = dateUtils.zerofy(10);
-    expect(typeof number).to.equal('string');
+    expect(typeof number).to.eql('string');
   });
 
-  /* TODO: Fix.
   it('should determine Easter Sunday in 2015', function() {
     var expectedDate = dateUtils.createDate(2015, 4, 5);
-    expect(dateUtils.easterSunday(2015)).to.equal(expectedDate);
+    expect(dateUtils.easterSunday(2015)).to.eql(expectedDate);
   });
-  */
+
+  it('should determine Easter Monday in 2016', function() {
+    var expectedDate = dateUtils.createDate(2016, 3, 28);
+    expect(dateUtils.easterMonday(2016)).to.eql(expectedDate);
+  });
+
+  it('should determine Good Friday in 2017', function() {
+    var expectedDate = dateUtils.createDate(2017, 4, 14);
+    expect(dateUtils.goodFriday(2017)).to.eql(expectedDate);
+  });
+
+  it('should determine Ascension Day in 2018', function() {
+    var expectedDate = dateUtils.createDate(2018, 5, 10);
+    expect(dateUtils.ascensionDay(2018)).to.eql(expectedDate);
+  });
+
+  it('should determine Pentecost in 2019', function() {
+    var expectedDate = dateUtils.createDate(2019, 6, 9);
+    expect(dateUtils.pentecost(2019)).to.eql(expectedDate);
+  });
+
+  it('should determine Midsummer Eve in 2020', function() {
+    var expectedDate = dateUtils.createDate(2020, 6, 19);
+    expect(dateUtils.midsummerEve(2020)).to.eql(expectedDate);
+  });
+
+  it('should determine Midsummer Day in 2021', function() {
+    var expectedDate = dateUtils.createDate(2021, 6, 26);
+    expect(dateUtils.midsummerDay(2021)).to.eql(expectedDate);
+  });
+
+  it("should determine All Saints' Day in 2022", function() {
+    var expectedDate = dateUtils.createDate(2022, 11, 5);
+    expect(dateUtils.allSaintsDay(2022)).to.eql(expectedDate);
+  });
 });
