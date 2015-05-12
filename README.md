@@ -23,6 +23,6 @@ holidays.month(6, 2015);
 ## Tests
 
 ```
-sudo npm install -g mocha
-mocha
+$ sudo npm install -g mocha
+$ mocha
 ```
