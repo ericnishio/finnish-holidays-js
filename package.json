@@ -13,5 +13,8 @@
     "type": "git",
     "url": "git@github.com:ericnishio/finnish-holidays-js.git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^2.3.0"
+  }
 }

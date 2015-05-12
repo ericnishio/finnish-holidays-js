@@ -19,3 +19,10 @@ holidays.next();
 holidays.year(2015);
 holidays.month(6, 2015);
 ```
+
+## Tests
+
+```
+sudo npm install -g mocha
+mocha
+```
