@@ -1,4 +1,5 @@
 var calendar = require('./lib/calendar');
+var translator = require('./lib/translator');
 
 module.exports = {
   next: function(count, includeWeekends) {
@@ -9,5 +10,8 @@ module.exports = {
   },
   month: function(month, year, includeWeekends) {
     return calendar.byMonth(month, year, includeWeekends);
+  },
+  translate: function(english, language) {
+    return translator.translate(english, language);
   }
 };
