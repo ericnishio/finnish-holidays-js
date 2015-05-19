@@ -32,6 +32,11 @@ describe('date-utils', function() {
     expect(typeof number).to.eql('string');
   });
 
+  it('should create a range array', function() {
+    var range = dateUtils.range(0, 10);
+    expect(range).to.eql([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+  });
+
   it('should determine Easter Sunday in 2015', function() {
     var expectedDate = dateUtils.createDate(2015, 4, 5);
     expect(dateUtils.easterSunday(2015)).to.eql(expectedDate);
