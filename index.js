@@ -1,5 +1,6 @@
 var calendar = require('./lib/calendar');
 var translator = require('./lib/translator');
+var planner = require('./lib/planner');
 
 module.exports = {
   next: function(count, includeWeekends) {
@@ -13,5 +14,10 @@ module.exports = {
   },
   translate: function(english, language) {
     return translator.translate(english, language);
+  },
+  optimize: function(year, numberOfHolidays) {
+    return planner.optimize(year, numberOfHolidays);
   }
 };
+
+module.exports.optimize(2015, 25);
