@@ -1,7 +1,8 @@
 finnish-holidays-js
 ===================
 
-[![Build Status](https://travis-ci.org/ericnishio/finnish-holidays-js.svg?branch=master)](https://travis-ci.org/ericnishio/finnish-holidays-js)
+[![NPM version][npm-image]][npm-url]
+[![Build Status][travis-image]][travis-url]
 
 A library for listing Finnish national holidays. Based on the [finnish-holidays](https://github.com/ericnishio/finnish-holidays)
 Ruby gem.
@@ -27,5 +28,15 @@ holidays.translate('Midsummer Eve', 'fi');
 
 ```
 $ sudo npm install -g mocha
-$ mocha
+$ npm test
 ```
+
+## License
+
+MIT © [Eric Nishio](http://ericnish.io)
+
+[npm-url]: https://npmjs.org/package/finnish-holidays-js
+[npm-image]: https://img.shields.io/npm/v/finnish-holidays-js.svg?style=flat-square
+
+[travis-url]: https://travis-ci.org/ericnishio/finnish-holidays-js
+[travis-image]: https://img.shields.io/travis/ericnishio/finnish-holidays-js.svg?style=flat-square
