@@ -4,17 +4,17 @@ var dateUtils = require('../lib/date-utils');
 describe('date-utils', function() {
   it('should detect Fridays', function() {
     var isWeekend = dateUtils.isWeekend(2015, 4, 24);
-    expect(isWeekend).not.to.be.true;
+    expect(isWeekend).not.to.equal(true);
   });
 
   it('should detect Saturdays', function() {
     var isWeekend = dateUtils.isWeekend(2015, 4, 25);
-    expect(isWeekend).to.be.true;
+    expect(isWeekend).to.equal(true);
   });
 
   it('should detect Sundays', function() {
     var isWeekend = dateUtils.isWeekend(2015, 4, 26);
-    expect(isWeekend).to.be.true;
+    expect(isWeekend).to.equal(true);
   });
 
   it('should not place zero before two-digit integer', function() {
