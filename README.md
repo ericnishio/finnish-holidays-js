@@ -27,7 +27,7 @@ holidays.translate('Midsummer Eve', 'fi');
 ## Tests
 
 ```
-$ sudo npm install -g mocha
+$ npm install -g mocha
 $ npm test
 ```
 
