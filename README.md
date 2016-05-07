@@ -21,9 +21,9 @@ var holidays = require('finnish-holidays-js');
 holidays.next();
 holidays.year(2015);
 holidays.month(6, 2015);
-holidays.translate('Midsummer Eve', 'fi');
 holidays.after(12, 2016, 0);
 holidays.before(12, 2016, 1);
+holidays.translate('Midsummer Eve', 'fi');
 ```
 
 ## Tests
