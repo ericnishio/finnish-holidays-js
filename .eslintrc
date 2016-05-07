@@ -37,6 +37,7 @@
       "beforeColon": false,
       "afterColon": true
     }],
+    "keyword-spacing": [2],
     "quotes": [2, "single", "avoid-escape"],
     "max-depth": [0, 4],
     "max-len": [0, 80, 4],
@@ -65,7 +66,6 @@
     "no-else-return": [0],
     "no-empty": [2],
     "no-empty-character-class": [2],
-    "no-empty-label": [2],
     "no-eq-null": [0],
     "no-eval": [2],
     "no-ex-assign": [2],
@@ -157,7 +157,6 @@
       "after": true
     }],
     "sort-vars": [0],
-    "space-after-keywords": [2, "always"],
     "space-before-function-paren": [2, {
       "anonymous": "never",
       "named": "never"
@@ -175,7 +174,6 @@
     ],
     "space-in-parens": [2, "never"],
     "space-infix-ops": [2],
-    "space-return-throw-case": [2],
     "space-unary-ops": [2, {
       "words": true,
       "nonwords": false
