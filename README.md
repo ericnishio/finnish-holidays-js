@@ -1,5 +1,4 @@
-finnish-holidays-js
-===================
+# <img src="doc/finnish-holidays-js.png" height="80" alt="finnish-holidays-js" />
 
 [![NPM version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
