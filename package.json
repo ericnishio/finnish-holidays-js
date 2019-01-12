@@ -18,6 +18,7 @@
     "url": "git@github.com:ericnishio/finnish-holidays-js.git"
   },
   "license": "MIT",
+  "types": "./lib/index.d.ts",
   "devDependencies": {
     "chai": "^2.3.0",
     "eslint": "^2.8.0",
