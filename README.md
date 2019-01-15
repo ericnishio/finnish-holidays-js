@@ -15,14 +15,14 @@ $ npm install finnish-holidays-js --save
 ## Usage
 
 ```javascript
-var holidays = require('finnish-holidays-js');
+import finnishholidays from 'finnish-holidays-js';
 
-holidays.next();
-holidays.year(2015);
-holidays.month(6, 2015);
-holidays.after(12, 2016, 0);
-holidays.before(12, 2016, 1);
-holidays.translate('Midsummer Eve', 'fi');
+finnishholidays.next();
+finnishholidays.year(2015);
+finnishholidays.month(6, 2015);
+finnishholidays.after(12, 2016, 0);
+finnishholidays.before(12, 2016, 1);
+finnishholidays.translate('Midsummer Eve', 'fi');
 ```
 
 ## Tests
